@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!-- The contents of this file will be loaded for each web application -->
+<Context antiJARLocking="true" path="/JSPTags">
+ 
+    <!-- Default set of monitored resources -->
+     
+                <Resource name="jdbc/web_student_tracker" auth="Container" type="javax.sql.DataSource"
+                     maxActive="100" maxIdle="30" maxWait="10000"
+                     username="root"
+                     password=""
+                     driverClassName="com.mysql.jdbc.Driver"
+                     url="jdbc:mysql://localhost:3306/web_student_tracker">
+                </Resource>
+</Context>
